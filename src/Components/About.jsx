@@ -81,7 +81,6 @@ const About = () => {
                 with={'80px'}
                 mr={8}>Resume</Button>
               </a>
-              
             </div>
           </div>
         </div>
