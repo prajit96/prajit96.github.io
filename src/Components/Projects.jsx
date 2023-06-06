@@ -67,6 +67,7 @@ const Projects = () => {
     <Container maxW={'7xl'} p="12" bg={'#ffffff'} >
     {/* 1st Project  */}
       <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Project Section</Heading>
+      <div id='projects'>
       <Box
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
@@ -323,6 +324,8 @@ const Projects = () => {
           </Flex>
         </Box>
       </Box>
+      </div>
+      
 
     </Container>
   );

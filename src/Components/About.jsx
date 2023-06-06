@@ -10,7 +10,9 @@ const handleDownloadResume = () => {
 const About = () => {
   return (
     <>
-      <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>About Me</Heading>
+    <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>About Me</Heading>
+    <div id="about" className="about section">
+    
       <section id="#about">
         <div className="section" data-aos="fade-right">
         
@@ -84,6 +86,8 @@ const About = () => {
           </div>
         </div>
       </section>
+    </div>
+      
     </>
   );
 };

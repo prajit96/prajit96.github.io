@@ -19,6 +19,7 @@ import {
   export default function Homepage() {
     return (
       <>
+      <div id='home'>
       <Container maxW={'5xl'} >
         <SimpleGrid columns={{ base: 1, md: 2 }} spacing={300} justifyContent={'space-between'} py={100}>
           <Stack width={'700px'} marginLeft={'0px'}>
@@ -63,6 +64,8 @@ import {
           </Box>
         </SimpleGrid>
       </Container>
+      </div>
+      
       <About/>
       <Skills/>
       <Projects/>
