@@ -23,7 +23,7 @@ const About = () => {
                 alt="Images"
               />
             </div>
-            <div className="about_dataCont" style={{textAlign:"left", fontWeight:'bolder', color:'#4A5568'}}>
+            <div id="user-detail-intro" className="about_dataCont" style={{textAlign:"left", fontWeight:'bolder', color:'#4A5568'}}>
               <h4 id="user-detail-intro">
                 Hi Everyone, I am{" "}
                 <span style={{color:'#00A3C4'}}>Prajit Kumar Santra </span> from{" "}Kolkata, West Bengal. A passionate Full Stack web developer specializing in {" "}

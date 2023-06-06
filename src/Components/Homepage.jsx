@@ -50,8 +50,8 @@ import {
             </Stack>
           </Stack>
           <Box alignItems={'centet'} justifyContent={'center'}>
-          <Flex size={'100px'}>    
-            <Image className='.home-img'
+          <Flex size={'100px'} className='.home-img'>    
+            <Image 
               rounded={'md'}
               alt={'feature image'}
               borderRadius={'80%'}
