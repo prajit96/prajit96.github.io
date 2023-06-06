@@ -12,6 +12,10 @@ import {
   Button,
   Container
 } from '@chakra-ui/react';
+import Github from './Github';
+import GithubStreak from './GithubStreak';
+import GithubStateCard from './GithubStateCard';
+import GithubLanguage from './GithubLanguage';
 
 
 const TechTags = (props) => {
@@ -63,7 +67,7 @@ const handleTaxGeniusGithub = () => {
 
 const Projects = () => {
   return (
-    
+    <>
     <Container maxW={'7xl'} p="12" bg={'#ffffff'} >
     {/* 1st Project  */}
       <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Project Section</Heading>
@@ -328,6 +332,11 @@ const Projects = () => {
       
 
     </Container>
+    <Github/>
+    <GithubStreak/>
+    <GithubStateCard/>
+    <GithubLanguage/>
+    </>
   );
 };
 
