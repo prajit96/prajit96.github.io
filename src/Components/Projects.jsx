@@ -71,8 +71,8 @@ const Projects = () => {
     <Container maxW={'7xl'} p="12" bg={'#ffffff'} >
     {/* 1st Project  */}
       <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Project Section</Heading>
-      <div id='projects'>
-      <Box
+      <div id='projects' >
+      <Box className='.project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -159,7 +159,7 @@ const Projects = () => {
       
       {/* 2nd Project */}
       
-      <Box
+      <Box className='.project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -245,7 +245,91 @@ const Projects = () => {
 
       {/* 3rd Project */}
       
-      <Box
+      <Box className='.project-card'
+        marginTop={{ base: '1', sm: '5' }}
+        display="flex"
+        flexDirection={{ base: 'column', sm: 'row' }}
+        justifyContent="space-between">
+        <Box
+          display="flex"
+          flex="1"
+          marginRight="3"
+          position="relative"
+          alignItems="center">
+          <Box
+            width={{ base: '100%', sm: '85%' }}
+            zIndex="2"
+            marginLeft={{ base: '0', sm: '5%' }}
+            marginTop="5%">
+            <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
+              
+              <Image
+                  borderRadius="lg"
+                  transform="scale(1.0)"
+                  src={
+                    'https://user-images.githubusercontent.com/115584065/236942350-19b18640-92db-4deb-98c4-21e0feece481.png'
+                  }
+                  alt="some text"
+                  objectFit="contain"
+                  width="100%"
+                  transition="0.3s ease-in-out"
+                  _hover={{
+                    transform: 'scale(1.05)',
+                  }}
+                />
+            </Link>
+          </Box>
+          
+        </Box>
+        <Box
+          display="flex"
+          flex="1"
+          flexDirection="column"
+          justifyContent="center"
+          marginTop={{ base: '3', sm: '0' }}>
+          
+          <Heading as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
+          TaxGenius
+          </Heading>
+
+          <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
+          <Text
+            as="p"
+            margin="10px 0px 15px 0px"
+            color={useColorModeValue('gray.700', 'gray.200')}
+            fontSize="lg" textAlign={'left'} alignContent={'center'}>
+            TaxGenius is the cloned website of TaxTim , an online digital tax assistant that helps you to make tax pay easily. TaxGenius introduces a conversational approach with its simple and intuitive interface which helps individuals compute tax returns. Thus, you enjoy the same level of interaction as an engagement with a Tax consultant.
+          </Text>
+          <Flex >
+            <Button color={"#03045e"}
+                border={"1px solid #00A3C4"}
+                padding={"2px 35px 3px 35px"}
+                _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
+                variant={"link"}
+                cursor={"pointer"}
+                borderRadius={"50px"}
+                fontSize={"20px"}
+                textDecoration={"none"}
+                onClick={handleTaxGeniusGithub}
+                mr={8}>Github</Button>
+            <Button
+            color={"#03045e"}
+            border={"1px solid #00A3C4"}
+            padding={"2px 35px 3px 35px"}
+            _hover={{ border: "1px solid white", color: "#00A3C4", backgroundColor:'#03045e'}}
+            variant={"link"}
+            cursor={"pointer"}
+            borderRadius={"50px"}
+            fontSize={"20px"}
+            textDecoration={"none"}
+            onClick={handleTaxGenius}
+            mr={8}>Live</Button>
+            
+          </Flex>
+        </Box>
+      </Box>
+       {/* project-4 */}
+      <Box className='.project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}

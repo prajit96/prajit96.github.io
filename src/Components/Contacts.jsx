@@ -45,9 +45,9 @@ import {
                     <Text mt={{ sm: 3, md: 3, lg: 5 }} color="gray.500">
                       Fill up the form below to contact
                     </Text>
-                    <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }}>
+                    <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }} >
                       <VStack pl={0} spacing={3} alignItems="flex-start">
-                        <Button
+                        <Button id="contact-phone"
                           size="md"
                           height="48px"
                           width="250px"
@@ -57,7 +57,7 @@ import {
                           leftIcon={<MdPhone color="#1970F1" size="20px" />}>
                           +91-9062970850
                         </Button>
-                        <Button
+                        <Button id="contact-email"
                           size="md"
                           height="48px"
                           width="250px"

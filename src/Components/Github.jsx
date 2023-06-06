@@ -6,7 +6,7 @@ import {
   } from '@chakra-ui/react';
   export default function Github() {
     return (
-      <div className="react-activity-calendar">
+      <div className=".react-activity-calendar">
         <Container
           maxW={'4xl'}
           height={'300px'}

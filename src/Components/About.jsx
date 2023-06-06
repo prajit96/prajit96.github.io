@@ -24,7 +24,7 @@ const About = () => {
               />
             </div>
             <div className="about_dataCont" style={{textAlign:"left", fontWeight:'bolder', color:'#4A5568'}}>
-              <h4 >
+              <h4 id="user-detail-intro">
                 Hi Everyone, I am{" "}
                 <span style={{color:'#00A3C4'}}>Prajit Kumar Santra </span> from{" "}Kolkata, West Bengal. A passionate Full Stack web developer specializing in {" "}
                   <span style={{color:'#00A3C4'}}>MERN Stack from Masai School</span>. Having excellent
@@ -65,7 +65,7 @@ const About = () => {
               <h4 style={{fontSize:'20px', color:'#00A3C4', fontWeight:'lighter'}} >Soft Skill Development</h4>
               </div>
               <a href={resume} download="Prajit-Santra-Resume"> 
-              <Button color={"#03045e"}
+              <Button id="resume-button-2" color={"#03045e"}
                 border={"1px solid #03045e"}
                 backgroundColor={'#00A3C4'}
                 padding={"2px 35px 3px 35px"}

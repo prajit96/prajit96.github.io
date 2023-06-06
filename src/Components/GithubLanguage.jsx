@@ -6,9 +6,9 @@ import {
   } from '@chakra-ui/react';
   export default function GithubLanguage() {
     return (
-      <div>
+      <div id="github-top-langs">
 
-        <Container
+        <Container id="contact-github"
           maxW={'4xl'}
           height={'300px'}
           bg={useColorModeValue('white', 'whiteAlpha.50')}
@@ -42,7 +42,7 @@ import {
           >
            TOP LANGUAGES
           </Text><br />
-          <Image id="github-top-langs" src='https://github-readme-stats.vercel.app/api/top-langs/?username=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image src='https://github-readme-stats.vercel.app/api/top-langs/?username=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );
