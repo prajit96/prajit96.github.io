@@ -41,7 +41,7 @@ import {
           >
             DAYS I CODE
           </Text><br />
-          <Image className="react-activity-calendar" src='https://ghchart.rshah.org/dharmikpuri' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image className="react-activity-calendar" src='https://ghchart.rshah.org/prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );
