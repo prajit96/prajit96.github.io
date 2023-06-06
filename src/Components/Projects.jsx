@@ -72,7 +72,7 @@ const Projects = () => {
     {/* 1st Project  */}
       <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Project Section</Heading>
       <div id='projects' >
-      <Box className='.project-card'
+      <Box className='project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -116,16 +116,18 @@ const Projects = () => {
           justifyContent="center"
           marginTop={{ base: '3', sm: '0' }}>
           
-          <Heading as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
+          <Heading className='project-title' as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
           Everything in ME
           </Heading>
-
-          <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
+          <div className='project-tech-stack'>
+            <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
+          </div>
+          
           <Text
             as="p"
             margin="10px 0px 15px 0px"
             color={useColorModeValue('gray.700', 'gray.200')}
-            fontSize="lg" textAlign={'left'} alignContent={'center'}>
+            fontSize="lg" textAlign={'left'} alignContent={'center'} className='project-description'>
             *Everything in ME* is India’s first hyper-local online platform that enables customers and local merchants to discover and engage with each other.
           </Text>
           <Flex >
@@ -159,7 +161,7 @@ const Projects = () => {
       
       {/* 2nd Project */}
       
-      <Box className='.project-card'
+      <Box className='project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -245,7 +247,7 @@ const Projects = () => {
 
       {/* 3rd Project */}
       
-      <Box className='.project-card'
+      <Box className='project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -329,7 +331,7 @@ const Projects = () => {
         </Box>
       </Box>
        {/* project-4 */}
-      <Box className='.project-card'
+      <Box className='project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}

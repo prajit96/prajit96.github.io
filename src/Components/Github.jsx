@@ -6,7 +6,7 @@ import {
   } from '@chakra-ui/react';
   export default function Github() {
     return (
-      <div className=".react-activity-calendar">
+      <div >
         <Container
           maxW={'4xl'}
           height={'300px'}
@@ -41,7 +41,7 @@ import {
           >
             DAYS I CODE
           </Text><br />
-          <Image src='https://ghchart.rshah.org/dharmikpuri' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image className="react-activity-calendar" src='https://ghchart.rshah.org/dharmikpuri' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );

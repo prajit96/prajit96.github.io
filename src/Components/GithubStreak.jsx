@@ -6,7 +6,7 @@ import {
   } from '@chakra-ui/react';
   export default function Github() {
     return (
-      <div id="github-streak-stats">
+      <div >
         <Container
           maxW={'4xl'}
           height={'300px'}
@@ -41,7 +41,7 @@ import {
           >
            GITHUB STREAK STATES
           </Text><br />
-          <Image src='https://github-readme-streak-stats.herokuapp.com/?user=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com/?user=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );

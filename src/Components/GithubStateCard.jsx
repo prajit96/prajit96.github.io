@@ -6,7 +6,7 @@ import {
   } from '@chakra-ui/react';
   export default function GithubStateCard() {
     return (
-      <div id="github-stats-card">
+      <div >
         <Container
           maxW={'4xl'}
           height={'300px'}
@@ -41,7 +41,7 @@ import {
           >
            GITHUB STATS CARD
           </Text><br />
-          <Image src='https://github-readme-stats.vercel.app/api?username=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image id="github-stats-card" src='https://github-readme-stats.vercel.app/api?username=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );

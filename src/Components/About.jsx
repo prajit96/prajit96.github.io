@@ -23,14 +23,15 @@ const About = () => {
                 alt="Images"
               />
             </div>
-            <div id="user-detail-intro" className="about_dataCont" style={{textAlign:"left", fontWeight:'bolder', color:'#4A5568'}}>
-              <h4 id="user-detail-intro">
+            <div className="about_dataCont" style={{textAlign:"left", fontWeight:'bolder', color:'#4A5568'}}>
+              <h4 >
                 Hi Everyone, I am{" "}
                 <span style={{color:'#00A3C4'}}>Prajit Kumar Santra </span> from{" "}Kolkata, West Bengal. A passionate Full Stack web developer specializing in {" "}
                   <span style={{color:'#00A3C4'}}>MERN Stack from Masai School</span>. Having excellent
                   problem-solving skills and also perform well in a team. 
 
               </h4>
+              <p id="user-detail-intro" style={{color:"transparent"}}>HTML, CSS, JavaScript</p>
               <h1 style={{fontSize:'23px', marginTop:'13px', color:'#03045e'}}>
                 Here are a Few Highlights
               </h1>
