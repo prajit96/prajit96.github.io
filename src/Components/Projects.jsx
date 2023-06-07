@@ -326,7 +326,6 @@ const Projects = () => {
             textDecoration={"none"}
             onClick={handleTaxGenius}
             mr={8}>Live</Button>
-            
           </Flex>
         </Box>
       </Box>

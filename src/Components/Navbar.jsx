@@ -48,7 +48,7 @@ export default function Navbar() {
           <HStack
             spacing={8}
             alignItems={"center"}
-            fontSize={{ base: "lg", md: "lg", lg: "2xl" }}
+            fontSize={{ base: "lg", md: "lg", lg: "2x1" }}
             fontWeight={"bold"}
           >
             <Box>
@@ -66,7 +66,7 @@ export default function Navbar() {
                 </a>
               </Button>
 
-              <Button className="nav-link about">
+              <Button className="nav-link-about">
                 <a href="#about">
                   <b>About</b>
                 </a>
