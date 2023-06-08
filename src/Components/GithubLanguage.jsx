@@ -8,7 +8,7 @@ import {
     return (
       <div>
 
-        <Container id="contact-github"
+        <Container
           maxW={'4xl'}
           height={'300px'}
           bg={useColorModeValue('white', 'whiteAlpha.50')}
