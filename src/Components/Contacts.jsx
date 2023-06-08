@@ -47,7 +47,7 @@ import {
                     </Text>
                     <Box py={{ base: 5, sm: 5, md: 8, lg: 10 }} >
                       <VStack pl={0} spacing={3} alignItems="flex-start">
-                        <Button id="contact-phone"
+                        <Button id='contact-phone'
                           size="md"
                           height="48px"
                           width="250px"
@@ -84,30 +84,39 @@ import {
                       spacing={5}
                       px={5}
                       alignItems="flex-start">
-                      <IconButton
+                        <a href="https://www.instagram.com/prajit00/">
+                        <IconButton
                         aria-label="instagram"
                         variant="ghost"
+                        color="#DCE2FF"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
-                        icon={<BsInstagram size="28px" />}
+                        icon={<BsInstagram  size="28px" />}
                       />
+                        </a>
+                      <a id='contact-github' href="https://github.com/prajit96">
                       <IconButton
                         aria-label="github"
                         variant="ghost"
+                        color="#DCE2FF"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsGithub size="28px" />}
                       />
-                      <IconButton
+                      </a>
+                      <a id='contact-linkedin' href="https://www.linkedin.com/in/prajit-santra-396120237/">
+                      <IconButton 
                         aria-label="linkedin"
                         variant="ghost"
+                        color="#DCE2FF"
                         size="lg"
                         isRound={true}
                         _hover={{ bg: '#0D74FF' }}
                         icon={<BsLinkedin size="28px" />}
                       />
+                      </a>
                     </HStack>
                   </Box>
                 </WrapItem>

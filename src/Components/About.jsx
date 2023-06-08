@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { BsBoxArrowInRight } from "react-icons/bs";
-import { Heading, Button } from "@chakra-ui/react";
+import { Text, Button } from "@chakra-ui/react";
 import resume from "../../src/Components/utils/Resume.pdf"
 const handleDownloadResume = () => {
   
@@ -10,7 +10,24 @@ const handleDownloadResume = () => {
 const About = () => {
   return (
     <>
-    <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>About Me</Heading>
+    <Text
+          as={"span"}
+          fontSize={"4xl"}
+          fontWeight={"bold"}
+          position={"relative"}
+          _after={{
+            content: "''",
+            width: "full",
+            height: "30%",
+            position: "absolute",
+            bottom: 1,
+            left: 0,
+            bg: "blue.400",
+            zIndex: -1,
+          }}
+        >
+          About Me
+        </Text>
     <div id="about" className="about section">
     
       <section id="#about">

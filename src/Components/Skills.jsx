@@ -12,12 +12,29 @@ import {
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-import { Heading } from "@chakra-ui/react";
+import { Text } from "@chakra-ui/react";
 
 const Skills = () => {
   return (
     <>
-      <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Skills Section</Heading>
+      <Text
+          as={"span"}
+          fontSize={"4xl"}
+          fontWeight={"bold"}
+          position={"relative"}
+          _after={{
+            content: "''",
+            width: "full",
+            height: "30%",
+            position: "absolute",
+            bottom: 1,
+            left: 0,
+            bg: "blue.400",
+            zIndex: -1,
+          }}
+        >
+          Skills Section
+        </Text>
       <div className="skills-card" data-aos="fade-right">
         <div className="skillsection" >
           <div>
