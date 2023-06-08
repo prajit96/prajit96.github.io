@@ -90,7 +90,7 @@ const Projects = () => {
             marginTop="5%">
             <Link textDecoration="none" _hover={{ textDecoration: 'none' }}>
               
-              <Image
+              <Image className='project-github-link'
                   borderRadius="lg"
                   transform="scale(1.0)"
                   // border={'2px solid #00A3C4'}
@@ -123,15 +123,15 @@ const Projects = () => {
             <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
           </div>
           
-          <Text
+          <Text className='project-description'
             as="p"
             margin="10px 0px 15px 0px"
-            color={useColorModeValue('gray.700', 'gray.200')}
-            fontSize="lg" textAlign={'left'} alignContent={'center'} className='project-description'>
+            color={useColorModeValue('gray.500', 'gray.600')}
+            fontSize="lg" textAlign={'left'} alignContent={'center'} >
             *Everything in ME* is India’s first hyper-local online platform that enables customers and local merchants to discover and engage with each other.
           </Text>
           <Flex >
-            <Button color={"#03045e"}
+            <Button color={"#03045e"} className='project-github-link'
                 border={"1px solid #00A3C4"}
                 padding={"2px 35px 3px 35px"}
                 _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
@@ -142,7 +142,7 @@ const Projects = () => {
                 textDecoration={"none"}
                 onClick={handleEverythingInMeGithub}
                 mr={8}>Github</Button>
-            <Button
+            <Button className='project-deployed-link'
             color={"#03045e"}
             border={"1px solid #00A3C4"}
             padding={"2px 35px 3px 35px"}
@@ -204,20 +204,20 @@ const Projects = () => {
           justifyContent="center"
           marginTop={{ base: '3', sm: '0' }}>
           
-          <Heading as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
+          <Heading className='project-title' as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
           FastDeal
           </Heading>
 
-          <TechTags tags={['JavaScript', 'HTML', 'CSS', 'ReactJS', 'Chakraui']} mb={'10px'} border={'1px solid green'}/>
-          <Text
+          <TechTags className='project-tech-stack' tags={['JavaScript', 'HTML', 'CSS', 'ReactJS', 'Chakraui']} mb={'10px'} border={'1px solid green'}/>
+          <Text className='project-description'
             as="p"
             margin="10px 0px 15px 0px"
-            color={useColorModeValue('gray.700', 'gray.200')}
+            color={useColorModeValue('gray.500', 'gray.600')}
             fontSize="lg" textAlign={'left'} alignContent={'center'}>
             FastDeal is an e-commerce website that specializes in clothing. Users can sign up and browse through a variety of products, add them to their cart, and proceed to checkout. Payment and shipping information can be provided at checkout, and once the payment is processed, users will be redirected to the homepage.
           </Text>
           <Flex >
-            <Button color={"#03045e"}
+            <Button color={"#03045e"} className='project-github-link'
                 border={"1px solid #00A3C4"}
                 padding={"2px 35px 3px 35px"}
                 _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
@@ -228,7 +228,7 @@ const Projects = () => {
                 textDecoration={"none"}
                 onClick={handleFastDealGithub}
                 mr={8}>Github</Button>
-            <Button
+            <Button className='project-deployed-link'
             color={"#03045e"}
             border={"1px solid #00A3C4"}
             padding={"2px 35px 3px 35px"}
@@ -290,20 +290,20 @@ const Projects = () => {
           justifyContent="center"
           marginTop={{ base: '3', sm: '0' }}>
           
-          <Heading as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
+          <Heading className='project-title' as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
           TaxGenius
           </Heading>
 
-          <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
-          <Text
+          <TechTags className='project-tech-stack' tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
+          <Text className='project-description'
             as="p"
             margin="10px 0px 15px 0px"
-            color={useColorModeValue('gray.700', 'gray.200')}
+            color={useColorModeValue('gray.500', 'gray.600')}
             fontSize="lg" textAlign={'left'} alignContent={'center'}>
             TaxGenius is the cloned website of TaxTim , an online digital tax assistant that helps you to make tax pay easily. TaxGenius introduces a conversational approach with its simple and intuitive interface which helps individuals compute tax returns. Thus, you enjoy the same level of interaction as an engagement with a Tax consultant.
           </Text>
           <Flex >
-            <Button color={"#03045e"}
+            <Button color={"#03045e"} className='project-github-link'
                 border={"1px solid #00A3C4"}
                 padding={"2px 35px 3px 35px"}
                 _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
@@ -314,7 +314,7 @@ const Projects = () => {
                 textDecoration={"none"}
                 onClick={handleTaxGeniusGithub}
                 mr={8}>Github</Button>
-            <Button
+            <Button className='project-deployed-link'
             color={"#03045e"}
             border={"1px solid #00A3C4"}
             padding={"2px 35px 3px 35px"}
@@ -330,7 +330,7 @@ const Projects = () => {
         </Box>
       </Box>
        {/* project-4 */}
-      <Box className='project-card'
+       <Box className='project-card'
         marginTop={{ base: '1', sm: '5' }}
         display="flex"
         flexDirection={{ base: 'column', sm: 'row' }}
@@ -373,20 +373,20 @@ const Projects = () => {
           justifyContent="center"
           marginTop={{ base: '3', sm: '0' }}>
           
-          <Heading as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
+          <Heading className='project-title' as="h2" mb={'35px'} textAlign={'left'} _hover={{color:'#03045e'}} color={'#00A3C4'} fontSize={'30px'}>
           TaxGenius
           </Heading>
 
-          <TechTags tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
-          <Text
+          <TechTags className='project-tech-stack' tags={['JavaScript', 'HTML', 'CSS', 'Rest API']} mb={'10px'} border={'1px solid green'}/>
+          <Text className='project-description'
             as="p"
             margin="10px 0px 15px 0px"
-            color={useColorModeValue('gray.700', 'gray.200')}
+            color={useColorModeValue('gray.500', 'gray.600')}
             fontSize="lg" textAlign={'left'} alignContent={'center'}>
             TaxGenius is the cloned website of TaxTim , an online digital tax assistant that helps you to make tax pay easily. TaxGenius introduces a conversational approach with its simple and intuitive interface which helps individuals compute tax returns. Thus, you enjoy the same level of interaction as an engagement with a Tax consultant.
           </Text>
           <Flex >
-            <Button color={"#03045e"}
+            <Button color={"#03045e"} className='project-github-link'
                 border={"1px solid #00A3C4"}
                 padding={"2px 35px 3px 35px"}
                 _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
@@ -397,7 +397,7 @@ const Projects = () => {
                 textDecoration={"none"}
                 onClick={handleTaxGeniusGithub}
                 mr={8}>Github</Button>
-            <Button
+            <Button className='project-deployed-link'
             color={"#03045e"}
             border={"1px solid #00A3C4"}
             padding={"2px 35px 3px 35px"}
@@ -409,7 +409,6 @@ const Projects = () => {
             textDecoration={"none"}
             onClick={handleTaxGenius}
             mr={8}>Live</Button>
-            
           </Flex>
         </Box>
       </Box>

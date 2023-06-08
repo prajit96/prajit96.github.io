@@ -18,7 +18,7 @@ const Skills = () => {
   return (
     <>
       <Heading as="h1" _hover={{color:'#00A3C4'}} color={'#03045e'} pt={'13px'}>Skills Section</Heading>
-      <div id="skills" className="skills-card" data-aos="fade-right">
+      <div className="skills-card" data-aos="fade-right">
         <div className="skillsection" >
           <div>
             <SiJavascript />
