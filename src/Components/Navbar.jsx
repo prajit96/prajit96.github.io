@@ -121,7 +121,7 @@ export default function Navbar() {
                 </a>
               </Button>
 
-              <Button className="nav-link home">
+              <Button className="nav-link about">
                 <a href="#about">
                   <b>About</b>
                 </a>

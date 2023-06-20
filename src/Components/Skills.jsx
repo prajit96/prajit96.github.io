@@ -4,7 +4,7 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  //SiMaterialui,
+  // SiMaterialui,
   SiExpress,
   SiNextdotjs,
   SiTypescript,
@@ -17,7 +17,7 @@ import { Text } from "@chakra-ui/react";
 const Skills = () => {
   return (
     <>
-      <Text
+      <Text id="skills"
           as={"span"}
           fontSize={"4xl"}
           fontWeight={"bold"}

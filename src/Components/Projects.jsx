@@ -21,6 +21,7 @@ const Projects = () => {
     <>
       <Container maxW={"4xl"} marginTop={50}>
         <Text
+          className="project-title"
           as={"span"}
           fontSize={"4xl"}
           fontWeight={"bold"}
