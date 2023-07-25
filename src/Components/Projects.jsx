@@ -8,9 +8,10 @@ import { SiNetlify } from 'react-icons/si'
 import { SiChakraui } from 'react-icons/si'
 import { SiReact } from 'react-icons/si'
 
-import everythinginMe from "../Components/Images/EverythingInME.png"
+import Food2Door from "../Components/Images/Food2Door.png"
 import fastDeal from "../Components/Images/FastDeal.png"
 import taxgenious from "../Components/Images/TaxGenious.png"
+import Gamezy from "../Components/Images/Gamezy.png"
 
 import Github from "../Components/Github";
 import GithubStreak from "../Components/GithubStreak";
@@ -40,14 +41,14 @@ const Projects = () => {
           Project Section
         </Text>
         <ProjectCard
-          title="Everything in ME"
-          discription="*Everything in ME* is India’s first hyper-local online platform that enables customers and local merchants to discover and engage with each other"
-          jsIcon={IoLogoJavascript}
-          htmlIcon={SiHtml5}
+          title="Food2Door"
+          discription="Food2Door are passionate about delivering the most delicious and healthy food options to our customers."
+          jsIcon={SiReact}
+          htmlIcon={IoLogoJavascript}
           cssIcon={SiCss3}
-          githubUrl="https://github.com/prajit96/muddled-can-9800"
-          netlifyUrl="https://stellular-duckanoo-264787.netlify.app/"
-          banner={everythinginMe}
+          githubUrl="https://github.com/prajit96/food_app"
+          netlifyUrl="https://food2door-prajit96.vercel.app/"
+          banner={Food2Door}
         />
         <ProjectCard 
           title="FastDeal"
@@ -70,14 +71,14 @@ const Projects = () => {
           banner={taxgenious}
         />
         <ProjectCard 
-          title="TaxGenious"
-          discription="TaxGenius is the cloned website of TaxTim , an online digital tax assistant that helps you to make tax pay easily. TaxGenius introduces a conversational approach with its simple and intuitive interface which helps individuals compute tax returns. Thus, you enjoy the same level of interaction as an engagement with a Tax consultant."
+          title="Gamezy"
+          discription="GAMEZY is a online gaming and movies platform. it's provides to the user play online gaming and movies."
           jsIcon={SiReact}
           htmlIcon={SiChakraui}
           cssIcon={SiNetlify}
-          githubUrl="https://github.com/Payalsahuj/elastic-behavior-9682"
-          netlifyUrl="https://elastic-behavior-9682.vercel.app/"
-          banner={taxgenious}
+          githubUrl="https://github.com/prajit96/gamezy_movies_game_clone"
+          netlifyUrl="https://comforting-chaja-8614b3.netlify.app/"
+          banner={Gamezy}
         />
         <Github/>
         <GithubStreak/>

@@ -38,7 +38,7 @@ import {
             </Heading>
             <Heading fontSize={'25px'} textAlign={'left'}>Full Stack Web Developer</Heading>
             <Text color={'gray.500'} fontSize={'lg'} width={'35rem'} textAlign={'left'} py={'25px'}>
-              Hey! I am MERN Stack Developer from India, and I'm very passsionate and dedicated to my work.</Text>
+              Hey! I am MERN Stack Developer from India, and I'm very passsionate and dedicated to my work. I have excellent problem-solving skills and also perform well in a team.</Text>
             <Stack
               spacing={2}
               divider={
@@ -46,7 +46,7 @@ import {
                   borderColor={useColorModeValue('gray.100', 'gray.700')}
                 />
               }>
-              <GithubResumeBtn/>
+              {/* <GithubResumeBtn/> */}
             </Stack>
           </Stack>
           <Box alignItems={'centet'} justifyContent={'center'}>

@@ -3,14 +3,12 @@ import "./About.css";
 import { BsBoxArrowInRight } from "react-icons/bs";
 import { Text, Button } from "@chakra-ui/react";
 import resume from "../../src/Components/utils/Resume.pdf"
-const handleDownloadResume = () => {
-  
-}
 
 const About = () => {
   return (
     <>
-    <Text
+    <div id="about" className="about section">
+    <Text 
           as={"span"}
           fontSize={"4xl"}
           fontWeight={"bold"}
@@ -33,7 +31,7 @@ const About = () => {
       <section id="#about">
         <div className="section" data-aos="fade-right">
         
-          <div className="about">
+          <div className="aboutt">
             <div className="about_logoCont">
               <img
                 src= "https://avatars.githubusercontent.com/u/115496998?v=4"
@@ -93,17 +91,21 @@ const About = () => {
                 borderRadius={"50px"}
                 fontSize={"20px"}
                 textDecoration={"none"}
-                onClick={handleDownloadResume}
+                
                 mt={'20px'}
                 height={'40px'}
                 with={'80px'}
-                mr={8}>Resume</Button>
+                mr={8}>
+                  <a href={resume} download={"Prajit-Santra-Resume"}>RESUME</a>
+                  </Button>
               </a>
             </div>
           </div>
         </div>
       </section>
     </div>
+    </div>
+    
       
     </>
   );

@@ -39,53 +39,53 @@ const Skills = () => {
         <div className="skillsection" >
           <div>
             <SiJavascript />
-            <h5>Javascript</h5>
+            <h5 className="skills-card-name">Javascript</h5>
           </div>
           <div>
             <SiHtml5 />
-            <h5>HTML</h5>
+            <h5 className="skills-card-name">HTML</h5>
           </div>
           <div>
             <DiCss3 />
-            <h5>CSS</h5>
+            <h5 className="skills-card-name">CSS</h5>
           </div>
           <div>
             <FaReact />
-            <h5>React</h5>
+            <h5 className="skills-card-name">React</h5>
           </div>
           <div>
             <SiChakraui />
-            <h5>Chakra UI</h5>
+            <h5 className="skills-card-name">Chakra UI</h5>
           </div>
           <div>
             <SiTypescript />
-            <h5>Typescript</h5>
+            <h5 className="skills-card-name">Typescript</h5>
           </div>
           <div>
             <SiNextdotjs />
-            <h5>NextJs</h5>
+            <h5 className="skills-card-name">NextJs</h5>
           </div>
 
           <div>
             <FaNodeJs />
-            <h5>Node.js</h5>
+            <h5 className="skills-card-name">Node.js</h5>
           </div>
           <div>
             <DiMongodb />
-            <h5>MongoDB</h5>
+            <h5 className="skills-card-name">MongoDB</h5>
           </div>
           <div>
             <SiRedux />
-            <h5>Redux</h5>
+            <h5 className="skills-card-name">Redux</h5>
 
           </div>
           <div>
             <SiExpress />
-            <h5>Express</h5>
+            <h5 className="skills-card-name">Express</h5>
           </div>
           <div>
             {/* <SiMaterialui /> */}
-            <h5>Material UI</h5>
+            <h5 className="skills-card-name">Material UI</h5>
           </div>
         </div>
       </div>
