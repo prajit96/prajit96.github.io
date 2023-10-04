@@ -11,7 +11,6 @@ import {
     Box,
   } from '@chakra-ui/react';
   import Contacts from './Contacts';
-  import GithubResumeBtn from './GithubResumeBtn';
   import Projects from './Projects';
   import Skills from './Skills';
   import About from './About';

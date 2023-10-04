@@ -1,7 +1,9 @@
 import React from "react";
 import "./About.css";
 import { BsBoxArrowInRight } from "react-icons/bs";
-import { Text, Button } from "@chakra-ui/react";
+import { SlDocs } from "react-icons/sl";
+import { Text } from "@chakra-ui/react";
+import { NavLink } from 'react-router-dom';
 import resume from "../../src/Components/utils/Resume.pdf"
 
 const About = () => {
@@ -91,25 +93,15 @@ const About = () => {
                <BsBoxArrowInRight style={{display:'flex', marginTop:'5px', color:'#03045e', width:'60px', height:'20px', textAlign:'center'}}/>
               <h4 style={{fontSize:'20px', color:'#00A3C4', fontWeight:'lighter'}} >Soft Skill Development</h4>
               </div>
-              <a href={resume} download="Prajit-Santra-Resume"> 
-              <Button id="resume-button-2" color={"#03045e"}
-                border={"1px solid #03045e"}
-                backgroundColor={'#00A3C4'}
-                padding={"2px 35px 3px 35px"}
-                _hover={{ border: "1px solid white", color: "#00A3C4",backgroundColor:'#03045e' }}
-                variant={"link"}
-                cursor={"pointer"}
-                borderRadius={"50px"}
-                fontSize={"20px"}
-                textDecoration={"none"}
-                
-                mt={'20px'}
-                height={'40px'}
-                with={'80px'}
-                mr={8}>
-                  <a href={resume} download={"Prajit-Santra-Resume"} onClick={downloadFile1}>RESUME</a>
-                  </Button>
-              </a>
+              <NavLink to="https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing">
+            <button
+            id="resume-button-2"
+            onClick={downloadFile1}
+          >
+            <SlDocs/>
+            <a href={resume} download={"Prajit-Santra-Resume"}>RESUME</a>
+          </button>
+        </NavLink>
             </div>
           </div>
         </div>
