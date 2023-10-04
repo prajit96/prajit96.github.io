@@ -20,6 +20,17 @@ export default function Navbar() {
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
+  function downloadFile1() {
+    window.open(
+      "https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing",
+      "_blank"
+    );
+    const link = document.createElement("a");
+    link.download = resume;
+    document.body.appendChild(link);
+    link.click();
+  }
+
   return (
     <div id="nav-menu">
       <Box bg={useColorModeValue("white", "#1a202c")} px={4}>
@@ -88,6 +99,7 @@ export default function Navbar() {
             <button
             id="resume-button-1"
             className="nav-link resume"
+            onClick={downloadFile1}
           >
             <SlDocs/>
             <a href={resume} download={"Prajit-Santra-Resume"}>RESUME</a>

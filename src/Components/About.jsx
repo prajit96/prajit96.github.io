@@ -5,6 +5,16 @@ import { Text, Button } from "@chakra-ui/react";
 import resume from "../../src/Components/utils/Resume.pdf"
 
 const About = () => {
+  function downloadFile1() {
+    window.open(
+      "https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing",
+      "_blank"
+    );
+    const link = document.createElement("a");
+    link.download = resume;
+    document.body.appendChild(link);
+    link.click();
+  }
   return (
     <>
     <div id="about" className="about section">
@@ -96,7 +106,7 @@ const About = () => {
                 height={'40px'}
                 with={'80px'}
                 mr={8}>
-                  <a href={resume} download={"Prajit-Santra-Resume"}>RESUME</a>
+                  <a href={resume} download={"Prajit-Santra-Resume"} onClick={downloadFile1}>RESUME</a>
                   </Button>
               </a>
             </div>

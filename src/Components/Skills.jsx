@@ -4,11 +4,11 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {
   SiRedux,
   SiHtml5,
-  // SiMaterialui,
   SiExpress,
   SiNextdotjs,
   SiTypescript,
-  SiChakraui
+  SiChakraui,
+  SiMui 
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -84,7 +84,7 @@ const Skills = () => {
             <h5 className="skills-card-name">Express</h5>
           </div>
           <div>
-            {/* <SiMaterialui /> */}
+            <SiMui  />
             <h5 className="skills-card-name">Material UI</h5>
           </div>
         </div>

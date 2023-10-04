@@ -41,7 +41,7 @@ import {
           >
            GITHUB STREAK STATES
           </Text><br />
-          <Image id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com/?user=prajit96' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
+          <Image id="github-streak-stats" src='https://github-readme-streak-stats.herokuapp.com/?user=prajit96&' width={{sm:'100%',md:'100%',lg:'100%'}} height={'160px'} marginTop={5}/>
         </Container>
       </div>
     );
