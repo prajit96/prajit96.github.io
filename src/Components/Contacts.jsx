@@ -172,7 +172,6 @@ import {
           </Box>
         </Flex>
         </div>
-        
       </Container>
     );
   }
