@@ -26,10 +26,12 @@ import {
   import { BsGithub, BsInstagram, BsLinkedin, BsPerson } from 'react-icons/bs';
   
   export default function Contacts() {
+
     return (
       <Container bg="#9DC4FB" maxW="full" mt={0} centerContent overflow="hidden">
         <Heading py={4} color={'#03045e'}>Contact Me </Heading>
         <div id='contact'>
+          {/* <img src="" alt="" /> */}
         <Flex>
           <Box
             bg="#02054B"
