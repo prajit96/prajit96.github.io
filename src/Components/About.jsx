@@ -18,6 +18,7 @@ const About = () => {
     document.body.appendChild(link);
     link.click();
   }
+  
   return (
     <>
     <div id="about" className="about section">
