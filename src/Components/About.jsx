@@ -14,6 +14,7 @@ const About = () => {
       "https://drive.google.com/file/d/15_D6UvMrJpTbcTp-Kqoq0zgGivBNudOL/view?usp=sharing",
       "_blank"
     );
+    
     const link = document.createElement("a");
     link.download = resume;
     document.body.appendChild(link);
