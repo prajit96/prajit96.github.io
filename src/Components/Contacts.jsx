@@ -86,17 +86,6 @@ import {
                       spacing={5}
                       px={5}
                       alignItems="flex-start">
-                        <a href="https://www.instagram.com/prajit00/">
-                        <IconButton
-                        aria-label="instagram"
-                        variant="ghost"
-                        color="#DCE2FF"
-                        size="lg"
-                        isRound={true}
-                        _hover={{ bg: '#0D74FF' }}
-                        icon={<BsInstagram  size="28px" />}
-                      />
-                        </a>
                       <a id='contact-github' href="https://github.com/prajit96">
                       <IconButton
                         aria-label="github"
@@ -119,6 +108,17 @@ import {
                         icon={<BsLinkedin size="28px" />}
                       />
                       </a>
+                      <a href="https://www.instagram.com/prajit00/">
+                        <IconButton
+                        aria-label="instagram"
+                        variant="ghost"
+                        color="#DCE2FF"
+                        size="lg"
+                        isRound={true}
+                        _hover={{ bg: '#0D74FF' }}
+                        icon={<BsInstagram  size="28px" />}
+                      />
+                        </a>
                     </HStack>
                   </Box>
                 </WrapItem>

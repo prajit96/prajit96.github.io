@@ -5,12 +5,13 @@ import { SlDocs } from "react-icons/sl";
 import { Text } from "@chakra-ui/react";
 import { NavLink } from 'react-router-dom';
 import resume from "../../src/Components/utils/Resume.pdf"
+import giphy from "../Components/Images/giphy.gif"
 
 const About = () => {
 
   function downloadFile1() {
     window.open(
-      "https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing",
+      "https://drive.google.com/file/d/15_D6UvMrJpTbcTp-Kqoq0zgGivBNudOL/view?usp=sharing",
       "_blank"
     );
     const link = document.createElement("a");
@@ -48,7 +49,7 @@ const About = () => {
           <div className="aboutt">
             <div className="about_logoCont">
               <img
-                src= "https://avatars.githubusercontent.com/u/115496998?v=4"
+                src= {giphy}
                 alt="Images"
               />
             </div>
@@ -94,7 +95,7 @@ const About = () => {
                <BsBoxArrowInRight style={{display:'flex', marginTop:'5px', color:'#03045e', width:'60px', height:'20px', textAlign:'center'}}/>
               <h4 style={{fontSize:'20px', color:'#00A3C4', fontWeight:'lighter'}} >Soft Skill Development</h4>
               </div>
-              <NavLink to="https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing">
+              <NavLink to="https://drive.google.com/file/d/15_D6UvMrJpTbcTp-Kqoq0zgGivBNudOL/view?usp=sharing">
             <button
             id="resume-button-2"
             onClick={downloadFile1}

@@ -8,7 +8,11 @@ import {
   SiNextdotjs,
   SiTypescript,
   SiChakraui,
-  SiMui 
+  SiMui, 
+  SiBootstrap,
+  SiOpenai,
+  SiAngular,
+  SiTailwindcss
 } from "react-icons/si";
 import { DiCss3, DiMongodb } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
@@ -38,16 +42,16 @@ const Skills = () => {
       <div className="skills-card" data-aos="fade-right">
         <div className="skillsection" >
           <div>
-            <SiJavascript />
-            <h5 className="skills-card-name">Javascript</h5>
-          </div>
-          <div>
             <SiHtml5 />
             <h5 className="skills-card-name">HTML</h5>
           </div>
           <div>
             <DiCss3 />
             <h5 className="skills-card-name">CSS</h5>
+          </div>
+          <div>
+            <SiJavascript />
+            <h5 className="skills-card-name">Javascript</h5>
           </div>
           <div>
             <FaReact />
@@ -86,6 +90,22 @@ const Skills = () => {
           <div>
             <SiMui  />
             <h5 className="skills-card-name">Material UI</h5>
+          </div>
+          <div>
+            <SiBootstrap /> 
+            <h5 className="skills-card-name">Bootstrap</h5>
+          </div>
+          <div>
+            <SiOpenai /> 
+            <h5 className="skills-card-name">OpenAI</h5>
+          </div>
+          <div>
+            <SiAngular/> 
+            <h5 className="skills-card-name">Angular</h5>
+          </div>
+          <div>
+            <SiTailwindcss/> 
+            <h5 className="skills-card-name">Tailwind CSS</h5>
           </div>
         </div>
       </div>

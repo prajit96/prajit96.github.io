@@ -22,7 +22,7 @@ export default function Navbar() {
 
   function downloadFile1() {
     window.open(
-      "https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing",
+      "https://drive.google.com/file/d/15_D6UvMrJpTbcTp-Kqoq0zgGivBNudOL/view?usp=sharing",
       "_blank"
     );
     const link = document.createElement("a");
@@ -95,7 +95,7 @@ export default function Navbar() {
             >
               {colorMode === "light" ? <MoonIcon /> : <SunIcon />} 
              </Button> 
-            <NavLink to="https://drive.google.com/file/d/1Pk27NS0okJla8RlboCOtZfzXNIIYWWn-/view?usp=sharing">
+            <NavLink to="https://drive.google.com/file/d/15_D6UvMrJpTbcTp-Kqoq0zgGivBNudOL/view?usp=sharing">
             <button
             id="resume-button-1"
             className="nav-link resume"
