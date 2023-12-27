@@ -1,18 +1,21 @@
 {
   "files": {
     "main.css": "/static/css/main.03840989.css",
-    "main.js": "/static/js/main.44a4b8f2.js",
+    "main.js": "/static/js/main.d8baf7b7.js",
+    "static/media/BookHavenX.png": "/static/media/BookHavenX.c964566653469dbac6c8.png",
     "static/media/TaxGenious.png": "/static/media/TaxGenious.cd26bfc1d479678eae39.png",
     "static/media/FastDeal.png": "/static/media/FastDeal.892cec69a3abfdfaf212.png",
+    "static/media/Resume.pdf": "/static/media/Resume.8b3c2026cd14069ec59f.pdf",
     "static/media/Food2Door.png": "/static/media/Food2Door.3f26975fa3b7f4e89915.png",
     "static/media/Gamezy.png": "/static/media/Gamezy.5a4245a437393a27cccf.png",
-    "static/media/Resume.pdf": "/static/media/Resume.37dad994713f2bc0c5cf.pdf",
+    "static/media/giphy.gif": "/static/media/giphy.05f035b3a27b38553a6a.gif",
+    "static/media/CodeConverter.png": "/static/media/CodeConverter.e7c802128a68a7ba55ae.png",
     "index.html": "/index.html",
     "main.03840989.css.map": "/static/css/main.03840989.css.map",
-    "main.44a4b8f2.js.map": "/static/js/main.44a4b8f2.js.map"
+    "main.d8baf7b7.js.map": "/static/js/main.d8baf7b7.js.map"
   },
   "entrypoints": [
     "static/css/main.03840989.css",
-    "static/js/main.44a4b8f2.js"
+    "static/js/main.d8baf7b7.js"
   ]
 }
