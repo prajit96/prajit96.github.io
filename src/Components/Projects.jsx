@@ -44,14 +44,14 @@ const Projects = () => {
           Project Section
         </Text>
         <ProjectCard
-          title="Code Converter App"
-          discription="Developed a web-based Code Converter App to facilitate seamless code conversion between various programming languages"
+          title="Food2Door"
+          discription="Food2Door are passionate about delivering the most delicious and healthy food options to our customers."
           jsIcon={SiReact}
-          htmlIcon={FaNodeJs}
-          cssIcon={SiOpenai}
-          githubUrl="https://github.com/prajit96/Code_converter_app"
-          netlifyUrl="https://code-converter-app-prajit96.vercel.app/"
-          banner={CodeConverter}
+          htmlIcon={IoLogoJavascript}
+          cssIcon={SiChakraui}
+          githubUrl="https://github.com/prajit96/food_app"
+          netlifyUrl="https://food2door-prajit96.vercel.app/"
+          banner={Food2Door}
         />
         <ProjectCard
           title="BookHavenX"
@@ -62,16 +62,6 @@ const Projects = () => {
           githubUrl="https://github.com/prajit96/BookHavenX-online-book-store"
           netlifyUrl="https://bookhavenx.vercel.app/"
           banner={BookHavenX}
-        />
-        <ProjectCard
-          title="Food2Door"
-          discription="Food2Door are passionate about delivering the most delicious and healthy food options to our customers."
-          jsIcon={SiReact}
-          htmlIcon={IoLogoJavascript}
-          cssIcon={SiChakraui}
-          githubUrl="https://github.com/prajit96/food_app"
-          netlifyUrl="https://food2door-prajit96.vercel.app/"
-          banner={Food2Door}
         />
         <ProjectCard 
           title="FastDeal"
@@ -102,6 +92,16 @@ const Projects = () => {
           githubUrl="https://github.com/prajit96/gamezy_movies_game_clone"
           netlifyUrl="https://comforting-chaja-8614b3.netlify.app/"
           banner={Gamezy}
+        />
+        <ProjectCard
+          title="Code Converter App"
+          discription="Developed a web-based Code Converter App to facilitate seamless code conversion between various programming languages"
+          jsIcon={SiReact}
+          htmlIcon={FaNodeJs}
+          cssIcon={SiOpenai}
+          githubUrl="https://github.com/prajit96/Code_converter_app"
+          netlifyUrl="https://code-converter-app-prajit96.vercel.app/"
+          banner={CodeConverter}
         />
         <Github/>
         <GithubStreak/>
