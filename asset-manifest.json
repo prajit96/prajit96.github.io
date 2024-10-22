@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.03840989.css",
-    "main.js": "/static/js/main.d8baf7b7.js",
+    "main.js": "/static/js/main.dec755c8.js",
     "static/media/BookHavenX.png": "/static/media/BookHavenX.c964566653469dbac6c8.png",
     "static/media/TaxGenious.png": "/static/media/TaxGenious.cd26bfc1d479678eae39.png",
     "static/media/FastDeal.png": "/static/media/FastDeal.892cec69a3abfdfaf212.png",
@@ -12,10 +12,10 @@
     "static/media/CodeConverter.png": "/static/media/CodeConverter.e7c802128a68a7ba55ae.png",
     "index.html": "/index.html",
     "main.03840989.css.map": "/static/css/main.03840989.css.map",
-    "main.d8baf7b7.js.map": "/static/js/main.d8baf7b7.js.map"
+    "main.dec755c8.js.map": "/static/js/main.dec755c8.js.map"
   },
   "entrypoints": [
     "static/css/main.03840989.css",
-    "static/js/main.d8baf7b7.js"
+    "static/js/main.dec755c8.js"
   ]
 }
