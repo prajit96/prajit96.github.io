@@ -2,12 +2,13 @@ import { Container, Text } from "@chakra-ui/react";
 import React from "react";
 import ProjectCard from "../Components/ProjectCard";
 import { IoLogoJavascript } from "react-icons/io";
-import { SiAngular, SiBootstrap, SiOpenai, SiTypescript } from "react-icons/si";
+import { SiAngular, SiBootstrap, SiMui, SiOpenai, SiTypescript } from "react-icons/si";
 import { SiNetlify } from 'react-icons/si'
 import { SiChakraui } from 'react-icons/si'
 import { SiReact } from 'react-icons/si'
 
 import CodeConverter from "../Components/Images/CodeConverter.png"
+import DreamTravel from "../Components/Images/DreamTravel.png"
 import BookHavenX from "../Components/Images/BookHavenX.png"
 import Food2Door from "../Components/Images/Food2Door.png"
 import fastDeal from "../Components/Images/FastDeal.png"
@@ -44,14 +45,24 @@ const Projects = () => {
           Project Section
         </Text>
         <ProjectCard
-          title="Food2Door"
-          discription="Food2Door are passionate about delivering the most delicious and healthy food options to our customers."
+          title="Code Converter App"
+          discription="Developed a web-based Code Converter App to facilitate seamless code conversion between various programming languages"
+          jsIcon={SiReact}
+          htmlIcon={FaNodeJs}
+          cssIcon={SiOpenai}
+          githubUrl="https://github.com/prajit96/Code_converter_app"
+          netlifyUrl="https://code-converter-app-u98t-prajit96s-projects.vercel.app/"
+          banner={CodeConverter}
+        />
+        <ProjectCard
+          title="Dream Travel"
+          discription="Dream Travel App — your one-stop solution for managing and booking tours with an intuitive interface for both tourists and administrators."
           jsIcon={SiReact}
           htmlIcon={IoLogoJavascript}
-          cssIcon={SiChakraui}
-          githubUrl="https://github.com/prajit96/food_app"
-          netlifyUrl="https://food2door-prajit96.vercel.app/"
-          banner={Food2Door}
+          cssIcon={SiMui }
+          githubUrl="https://github.com/prajit96/Dream-Travel-travel-website"
+          netlifyUrl="https://dream-travel-prajit96-prajit96s-projects.vercel.app/"
+          banner={DreamTravel}
         />
         <ProjectCard
           title="BookHavenX"
@@ -62,6 +73,16 @@ const Projects = () => {
           githubUrl="https://github.com/prajit96/BookHavenX-online-book-store"
           netlifyUrl="https://bookhavenx.vercel.app/"
           banner={BookHavenX}
+        />
+        <ProjectCard
+          title="Food2Door"
+          discription="Food2Door are passionate about delivering the most delicious and healthy food options to our customers."
+          jsIcon={SiReact}
+          htmlIcon={IoLogoJavascript}
+          cssIcon={SiChakraui}
+          githubUrl="https://github.com/prajit96/food_app"
+          netlifyUrl="https://food2door-prajit96.vercel.app/"
+          banner={Food2Door}
         />
         <ProjectCard 
           title="FastDeal"
@@ -93,16 +114,7 @@ const Projects = () => {
           netlifyUrl="https://comforting-chaja-8614b3.netlify.app/"
           banner={Gamezy}
         />
-        <ProjectCard
-          title="Code Converter App"
-          discription="Developed a web-based Code Converter App to facilitate seamless code conversion between various programming languages"
-          jsIcon={SiReact}
-          htmlIcon={FaNodeJs}
-          cssIcon={SiOpenai}
-          githubUrl="https://github.com/prajit96/Code_converter_app"
-          netlifyUrl="https://code-converter-app-prajit96.vercel.app/"
-          banner={CodeConverter}
-        />
+        
         <Github/>
         <GithubStreak/>
         <GithubStateCard/>
